@@ -1,0 +1,69 @@
+#wpadminbar {
+  background: $admin-bar-bg-color;
+  height: $admin-bar-height;
+
+  #wp-admin-bar-root-default {
+    > li,
+    > li > a {
+      height: $admin-bar-height;
+      line-height: $admin-bar-height;
+
+      &::before {
+        content: "" !important;
+      }
+    }
+  }
+
+  #wp-admin-bar-site-name {
+    width: $menu-width !important;
+    background: $menu-bg-color !important;
+
+    &:hover.hover,
+    &:focus.hover,
+    a:hover,
+    a:focus{
+      background: $menu-bg-color !important;
+      color: $accent-color;
+    }
+
+    a {
+      font-size: 17px;
+      font-family: Montserrat;
+      color: rgba(255, 255, 255, 0.5);
+      font-weight: 500;
+    }
+
+    .ab-sub-wrapper {
+      display: none !important;
+    }
+  }
+
+  #wp-admin-bar-my-account,
+  #wp-admin-bar-my-account > a {
+    height: $admin-bar-height;
+    line-height: $admin-bar-height;
+  }
+
+  #wp-admin-bar-my-account {
+
+    &.hover {
+      background: $admin-bar-bg-color !important;
+    }
+
+    &:hover,
+    &:focus {
+      background: $admin-bar-bg-color !important;
+    }
+
+
+    & > a {
+      color: transparent !important;
+    }
+
+    img {
+      height: 30px !important;
+      width: 30px !important;
+      border-radius: 40px;
+    }
+  }
+}

@@ -1,0 +1,141 @@
+#adminmenuback,
+#adminmenuwrap,
+#adminmenu {
+  background-color: $menu-bg-color !important;
+  width: $menu-width;
+}
+
+#adminmenuwrap {
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding-bottom: 60px;
+}
+
+#adminmenu {
+  font-family: Montserrat;
+
+  .menu-label {
+    cursor: default !important;
+
+    .wp-menu-image.dashicons-before {
+      display: none !important;
+    }
+
+    .wp-menu-name {
+      color: $menu-label-color !important;
+      font-weight: bold;
+      padding: 8px;
+    }
+  }
+
+  .menu-top {
+    color: $menu-item-color;
+    font-size: 15px !important;
+    padding-left: 10px;
+
+    &:hover,
+    &:focus {
+      box-shadow: none;
+      background-color: transparent !important;
+
+      .wp-menu-image.dashicons-before {
+        &::before {
+          color: $menu-item-hover-color;
+        }
+      }
+
+      .wp-menu-name {
+        color: $current-menu-item-color;
+      }
+    }
+
+    &.current,
+    &.wp-menu-open {
+      background-color: transparent !important;
+
+      .wp-menu-image.dashicons-before {
+        &::before {
+          color: $current-menu-item-color;
+        }
+      }
+
+      .wp-menu-name {
+        color: $current-menu-item-color;
+      }
+    }
+  }
+
+  .wp-submenu {
+    padding: 6px 0 30px 15px;
+    background-color: $menu-bg-color !important;
+
+    a {
+      font-size: 14px !important;
+
+      &:hover,
+      &:focus {
+        box-shadow: none;
+        color: $menu-item-hover-color;
+      }
+
+      &.current {
+        font-weight: normal !important;
+      }
+    }
+
+    li:not(.ame-unclickable-menu-item) {
+      margin-left: 20px;
+      position: relative;
+
+      &::before {
+        content: "";
+        height: 100%;
+        width: 2px;
+        background-color: $accent-color;
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+    }
+
+    li.ame-unclickable-menu-item {
+        margin-top: 15px;
+
+      a {
+        color: $menu-label-color !important;
+        cursor: default !important;
+        text-transform: uppercase;
+        padding-left: 17px;
+      }
+    }
+
+    li:first-child,
+    li:nth-child(2) {
+      margin-top: 0 !important;
+    }
+  }
+}
+
+#adminmenu .wp-submenu {
+  width: $menu-width;
+}
+
+#adminmenu .wp-submenu {
+  position: relative !important;
+  top: 0 !important;
+  left: 0 !important;
+}
+
+.wp-submenu {
+ display: none;
+}
+
+#collapse-menu {
+  display: none !important;
+}
+
+body:not(.is-fullscreen-mode) {
+  .edit-post-layout {
+    left: $menu-width;
+  }
+}

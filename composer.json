@@ -1,0 +1,30 @@
+{
+    "name": "rafflex/nea",
+    "description": "Custom configuration for WP Admin panel",
+    "autoload":  {
+        "psr-4": {
+            "Rafflex\\Nea\\" : "src/"
+        }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://wpackagist.org"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:themosis/framework.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:rafflex/acf-composer.git"
+        }
+    ],
+    "require": {
+        "rafflex/acf-composer": "dev-master",
+        "stoutlogic/acf-builder": "^1.10.0",
+        "themosis/framework": "dev-master"
+    },
+    "license": "MIT",
+    "minimum-stability": "dev"
+}

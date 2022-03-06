@@ -1,0 +1,28 @@
+:root {
+  --nea-accent-color: #4099de;
+  --nea-menu-accent-color: #077cfa;
+  --nea-darker-accent-color: darken(#077cfa, 15%);
+  --nea-light-color: #fff;
+  --nea-menu-bg-color: #1b2125;
+  --nea-menu-label-color: rgba(255, 255, 255, 0.3);
+  --nea-menu-item-color: rgba(255, 255, 255, 0.7);
+  --nea-menu-item-hover-color: --nea-accent-color;
+  --nea-current-menu-item-color: --nea-accent-color;
+
+  --nea-border-radius: 4px;
+}
+$accent-color: #4099de;
+$light-color: #fff;
+$darker-accent-color: darken($accent-color, 10%);
+$menu-bg-color: #1b2125;
+$menu-label-color: rgba(255, 255, 255, 0.3);
+$menu-item-color: rgba(255, 255, 255, 0.7);
+$menu-item-hover-color: $accent-color;
+$current-menu-item-color: $accent-color;
+
+$admin-bar-bg-color: #fcf7f7;
+$admin-bar-height: 52px;
+
+$menu-width: 250px;
+
+$border-radius: 4px;

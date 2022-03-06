@@ -1,0 +1,12 @@
+html.wp-toolbar {
+  padding-top: $admin-bar-height !important;
+}
+
+#wpwrap {
+ background-color: #eceff1 !important;
+}
+
+#wpcontent {
+  margin-left: $menu-width;
+  background-color: transparent !important;
+}

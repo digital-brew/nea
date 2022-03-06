@@ -1,0 +1,61 @@
+.wp-admin {
+  .wrap {
+    margin-top: 34px;
+
+    .wp-heading-inline {
+      font-family: Montserrat;
+      font-weight: 600;
+    }
+
+    .page-title-action {
+      margin-top: 10px;
+      margin-bottom: 15px;
+      float: right;
+      padding: 7px 14px;
+      display: inline-block;
+      font-family: Montserrat;
+      font-weight: 500;
+      background-color: $accent-color;
+      color: $light-color;
+      border: 1px solid $accent-color;
+      border-radius: $border-radius;
+      transition: all 0.15s ease-in-out !important;
+
+      &:hover,
+      &:focus {
+        border-color: $darker-accent-color;
+        background-color: $darker-accent-color;
+      }
+    }
+
+    .subsubsub {
+      margin-top: 17px;
+      font-family: Montserrat;
+    }
+
+    #posts-filter {
+      margin-top: 15px;
+    }
+
+    .wp-list-table {
+      .row-title {
+        font-size: 15px !important;
+        color: var(--nea-accent-color);
+        font-family: Montserrat;
+      }
+    }
+
+    .iedit.hentry {
+      &:hover {
+        .row-actions {
+          opacity: 1;
+        }
+      }
+
+      .row-actions {
+        opacity: 0;
+        transition: opacity 0.2s ease-in-out;
+      }
+    }
+  }
+}
