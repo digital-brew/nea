@@ -8,5 +8,7 @@ vendor/
 ### IDE
 .idea/
 
-### NodeJS
+### NodeJS / Yarn
 node_modules/
+npm-debug.log
+yarn-error.log
