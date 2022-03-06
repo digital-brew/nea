@@ -1,7 +1,12 @@
-node_modules/
-
+### Miscellaneous
 .DS_Store
 Thumbs.db
-.php_cs.cache
-npm-debug.log
-yarn-error.log
+
+### Composer
+vendor/
+
+### IDE
+.idea/
+
+### NodeJS
+node_modules/
