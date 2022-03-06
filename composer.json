@@ -21,9 +21,9 @@
         }
     ],
     "require": {
-        "rafflex/acf-composer": "dev-master",
+        "rafflex/acf-composer": "dev-main",
         "stoutlogic/acf-builder": "^1.10.0",
-        "themosis/framework": "dev-master"
+        "themosis/framework": "dev-main"
     },
     "license": "MIT",
     "minimum-stability": "dev"
