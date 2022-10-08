@@ -1,5 +1,5 @@
 {
-    "name": "rafflex/nea",
+    "name": "digital-brew/nea",
     "description": "Custom configuration for WP Admin panel",
     "autoload":  {
         "psr-4": {
