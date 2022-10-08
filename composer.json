@@ -17,11 +17,11 @@
         },
         {
             "type": "vcs",
-            "url": "git@github.com:rafflex/acf-composer.git"
+            "url": "git@github.com:digital-brew/acf-composer.git"
         }
     ],
     "require": {
-        "rafflex/acf-composer": "dev-main",
+        "digital-brew/acf-composer": "dev-main",
         "stoutlogic/acf-builder": "^1.10.0",
         "themosis/framework": "dev-main"
     },
