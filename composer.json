@@ -14,7 +14,7 @@
         {
           "type": "vcs",
           "url": "git@github.com:tbtmuse/themosis-framework"
-        }
+        },
         {
             "type": "vcs",
             "url": "git@github.com:digital-brew/acf-composer.git"
