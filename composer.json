@@ -12,10 +12,6 @@
             "url": "https://wpackagist.org"
         },
         {
-          "type": "vcs",
-          "url": "git@github.com:tbtmuse/themosis-framework"
-        },
-        {
             "type": "vcs",
             "url": "git@github.com:digital-brew/acf-composer.git"
         }
@@ -23,7 +19,7 @@
     "require": {
         "digital-brew/acf-composer": "dev-main",
         "stoutlogic/acf-builder": "^1.10.0",
-        "themosis/framework": "dev-feature/laravel-9"
+        "themosis/framework": "^3.0"
     },
     "license": "MIT",
     "minimum-stability": "dev"
