@@ -13,14 +13,23 @@
         },
         {
             "type": "vcs",
-            "url": "git@github.com:digital-brew/acf-composer.git"
+            "url": "git@github.com:digital-brew/acf-composer"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:AmphiBee/framework"
         }
     ],
     "require": {
         "digital-brew/acf-composer": "dev-main",
-        "stoutlogic/acf-builder": "^1.10.0",
-        "themosis/framework": "^3.0"
+        "stoutlogic/acf-builder": "^1.12",
+        "themosis/framework": "^4.0"
     },
     "license": "MIT",
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "config": {
+        "allow-plugins": {
+            "composer/installers": true
+        }
+    }
 }
