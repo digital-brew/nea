@@ -23,7 +23,7 @@
     "require": {
         "digital-brew/acf-composer": "dev-main",
         "stoutlogic/acf-builder": "^1.12",
-        "themosis/framework": "^4.0"
+        "themosis/framework": "^3.0 || ^4.0"
     },
     "license": "MIT",
     "minimum-stability": "dev",
